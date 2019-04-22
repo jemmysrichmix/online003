@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Jemy's Rich Mix : A Ghanaian Bakery Company</title>
+
+    <!-- WARNING: PERSONAL -->
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/desktop.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- WARNING: JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  </head>
+
+
+  <body>
+    <header>
+      <div class="nb-header-contact">
+
+        <div class="top-header">
+          <div class="nb-col-2 nb-left">
+            <a href="https://www.facebook.com/JemysRichMix/"><i class="fa fa-facebook"></i> </a>
+            <a href="https://www.instagram.com/jemys_richmix/"><i class="fa fa-instagram"></i> </a>
+            <a href="https://www.facebook.com/JemysRichMix/"><i class="fa fa-twitter"></i> </a>
+
+          </div>
+
+          <div class="nb-col-2 nb-header-right">
+            <a href="tel:0503214945">+233 0503214945</a>
+            <a href="mailto:jemysmix2018@gmail.com" id="sendusamessage-txt">
+              <span id="header-email-send">send</span>
+              <span id="header-email-usa">us a</span>
+              <span id="header-email-message">message</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="main-header">
+
+          <div class="nb-col-2">
+            <div id="logo-box">
+              <img class="logo-header" src="img/logo1.png" alt="Accra based Bakery">
+            </div>
+          </div>
+
+          <div class="nb-col-2 nb-desktop" id="menu-lg">
+            <ul>
+              <a href="index.html">HOME</a>
+              <a href="about.htm">ABOUT</a>
+              <a href="menu.htm">MENU</a>
+              <a href="contact.htm">CONTACT</a>
+            </ul>
+          </div>
+
+          <!-- WARNING: mobile -->
+          <div class="nb-col-2 nb-mobile" id="menu-sm">
+            <ul>
+              <li>  <i class="fa fa-bars menu-sm"></i> </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+    <div class="product-container">
+      <div class="nb-title">
+        <h2>BISCUITS</h2> <br>
+      </div>
+
+      <div class="product-box">
+          <div class="red-title-box" style="background-image: url(img/category/biscuit.jpeg);" >
+            <h2 id="title-product"> BISCUITS</h2>
+          </div>
+
+          <div class="product1-box">
+            <img src="img/product/product1.jpeg" alt="">
+
+              <div class="item-box">
+                <div class="nb-col-2 product-name">
+                  <h2>Aba's Basic</h2>
+                </div>
+
+                <div class="nb-col-2 product-price">
+                  <div class="nb-col-3 product-size">
+                    <div class="product-size-name">
+                      <h6>BIG</h6>
+                    </div>
+                    <div class="product-price-figure">
+                      16.00
+                    </div>
+
+                  </div>
+                  <div class="nb-col-3 product-size">
+
+                    <div class="product-size-name">
+                      <h6>MEDIUM</h6>
+                    </div>
+                    <div class="product-price-figure">
+                      12.00
+                    </div>
+
+                  </div>
+                  <div class="nb-col-3 product-size">
+
+                    <div class="product-size-name">
+                      <h6>SMALL</h6>
+                    </div>
+                    <div class="product-price-figure">
+                      10.00
+                    </div>
+
+                  </div>
+                </div>
+
+                      <center><a onclick="showBilling()" class="myButton">Order</a></center>
+
+              </div>
+
+          </div>
+
+            <div class="product1-box">
+              <img src="img/product/product8.jpeg" alt="">
+
+                <div class="item-box">
+                  <div class="nb-col-2 product-name">
+                    <h2>Choco Delight</h2>
+                  </div>
+
+                  <div class="nb-col-2 product-price">
+                    <div class="nb-col-3 product-size">
+                      <div class="product-size-name">
+                        <h6>BIG</h6>
+                      </div>
+                      <div class="product-price-figure">
+                        18.00
+                      </div>
+
+                    </div>
+                    <div class="nb-col-3 product-size">
+
+                      <div class="product-size-name">
+                        <h6>MEDIUM</h6>
+                      </div>
+                      <div class="product-price-figure">
+                        14.00
+                      </div>
+
+                    </div>
+                    <div class="nb-col-3 product-size">
+
+                      <div class="product-size-name">
+                        <h6>SMALL</h6>
+                      </div>
+                      <div class="product-price-figure">
+                        12.00
+                      </div>
+
+                    </div>
+                  </div>
+                        <center><a onclick="showBilling()" class="myButton">Order</a></center>
+                </div>
+            </div>
+
+              <div class="product1-box">
+                <img src="img/product/product4.jpeg" alt="">
+
+                  <div class="item-box">
+                    <div class="nb-col-2 product-name">
+                      <h2>Ginger</h2>
+                    </div>
+
+                    <div class="nb-col-2 product-price">
+                      <div class="nb-col-3 product-size">
+                        <div class="product-size-name">
+                          <h6>BIG</h6>
+                        </div>
+                        <div class="product-price-figure">
+                          20.00
+                        </div>
+
+                      </div>
+                      <div class="nb-col-3 product-size">
+
+                        <div class="product-size-name">
+                          <h6>MEDIUM</h6>
+                        </div>
+                        <div class="product-price-figure">
+                          16.00
+                        </div>
+
+                      </div>
+                      <div class="nb-col-3 product-size">
+
+                        <div class="product-size-name">
+                          <h6>SMALL</h6>
+                        </div>
+                        <div class="product-price-figure">
+                          13.00
+                        </div>
+
+                      </div>
+                    </div>
+                        <center><a onclick="showBilling()" class="myButton">Order</a></center>
+                  </div>
+              </div>
+
+                <div class="product1-box">
+                  <img src="img/product/product2.jpeg" alt="">
+
+                    <div class="item-box">
+                      <div class="nb-col-2 product-name">
+                        <h2>Oacnut</h2>
+                      </div>
+
+                      <div class="nb-col-2 product-price">
+                        <div class="nb-col-3 product-size">
+                          <div class="product-size-name">
+                            <h6>BIG</h6>
+                          </div>
+                          <div class="product-price-figure">
+                            25.00
+                          </div>
+
+                        </div>
+                        <div class="nb-col-3 product-size">
+
+                          <div class="product-size-name">
+                            <h6>MEDIUM</h6>
+                          </div>
+                          <div class="product-price-figure">
+                            20.00
+                          </div>
+
+                        </div>
+                        <div class="nb-col-3 product-size">
+
+                          <div class="product-size-name">
+                            <h6>SMALL</h6>
+                          </div>
+                          <div class="product-price-figure">
+                            15.00
+                          </div>
+
+                        </div>
+                      </div>
+
+                          <center><a onclick="showBilling()" class="myButton">Order</a></center>
+
+                    </div>
+                </div>
+      </div>
+
+
+      <div class="nb-title">
+        <h2>CAKES</h2> <br>
+      </div>
+      <div class="product-box">
+          <div class="red-title-box" style="background-image: url(img/category/cat-2.jpg);" >
+            <h2 id="title-product"> CAKES</h2>
+          </div>
+
+          <div class="product1-box">
+            <img src="img/product/product1.jpeg" alt="">
+
+              <div class="item-box">
+                <div class="nb-col-2 product-name">
+                  <h2>Aba's Basic</h2>
+                </div>
+
+                <div class="nb-col-2 product-price">
+                  <div class="nb-col-3 product-size">
+                    <div class="product-size-name">
+                      <h6>BIG</h6>
+                    </div>
+                    <div class="product-price-figure">
+                      16.00
+                    </div>
+
+                  </div>
+                  <div class="nb-col-3 product-size">
+
+                    <div class="product-size-name">
+                      <h6>MEDIUM</h6>
+                    </div>
+                    <div class="product-price-figure">
+                      12.00
+                    </div>
+
+                  </div>
+                  <div class="nb-col-3 product-size">
+
+                    <div class="product-size-name">
+                      <h6>SMALL</h6>
+                    </div>
+                    <div class="product-price-figure">
+                      10.00
+                    </div>
+
+                  </div>
+                </div>
+
+                      <center><a onclick="showBilling()" class="myButton">Order</a></center>
+
+              </div>
+
+          </div>
+
+            <div class="product1-box">
+              <img src="img/product/product8.jpeg" alt="">
+
+                <div class="item-box">
+                  <div class="nb-col-2 product-name">
+                    <h2>Choco Delight</h2>
+                  </div>
+
+                  <div class="nb-col-2 product-price">
+                    <div class="nb-col-3 product-size">
+                      <div class="product-size-name">
+                        <h6>BIG</h6>
+                      </div>
+                      <div class="product-price-figure">
+                        18.00
+                      </div>
+
+                    </div>
+                    <div class="nb-col-3 product-size">
+
+                      <div class="product-size-name">
+                        <h6>MEDIUM</h6>
+                      </div>
+                      <div class="product-price-figure">
+                        14.00
+                      </div>
+
+                    </div>
+                    <div class="nb-col-3 product-size">
+
+                      <div class="product-size-name">
+                        <h6>SMALL</h6>
+                      </div>
+                      <div class="product-price-figure">
+                        12.00
+                      </div>
+
+                    </div>
+                  </div>
+                        <center><a onclick="showBilling()" class="myButton">Order</a></center>
+                </div>
+            </div>
+
+              <div class="product1-box">
+                <img src="img/product/product4.jpeg" alt="">
+
+                  <div class="item-box">
+                    <div class="nb-col-2 product-name">
+                      <h2>Ginger</h2>
+                    </div>
+
+                    <div class="nb-col-2 product-price">
+                      <div class="nb-col-3 product-size">
+                        <div class="product-size-name">
+                          <h6>BIG</h6>
+                        </div>
+                        <div class="product-price-figure">
+                          20.00
+                        </div>
+
+                      </div>
+                      <div class="nb-col-3 product-size">
+
+                        <div class="product-size-name">
+                          <h6>MEDIUM</h6>
+                        </div>
+                        <div class="product-price-figure">
+                          16.00
+                        </div>
+
+                      </div>
+                      <div class="nb-col-3 product-size">
+
+                        <div class="product-size-name">
+                          <h6>SMALL</h6>
+                        </div>
+                        <div class="product-price-figure">
+                          13.00
+                        </div>
+
+                      </div>
+                    </div>
+                        <center><a onclick="showBilling()" class="myButton">Order</a></center>
+                  </div>
+              </div>
+
+                <div class="product1-box">
+                  <img src="img/product/product2.jpeg" alt="">
+
+                    <div class="item-box">
+                      <div class="nb-col-2 product-name">
+                        <h2>Oacnut</h2>
+                      </div>
+
+                      <div class="nb-col-2 product-price">
+                        <div class="nb-col-3 product-size">
+                          <div class="product-size-name">
+                            <h6>BIG</h6>
+                          </div>
+                          <div class="product-price-figure">
+                            25.00
+                          </div>
+
+                        </div>
+                        <div class="nb-col-3 product-size">
+
+                          <div class="product-size-name">
+                            <h6>MEDIUM</h6>
+                          </div>
+                          <div class="product-price-figure">
+                            20.00
+                          </div>
+
+                        </div>
+                        <div class="nb-col-3 product-size">
+
+                          <div class="product-size-name">
+                            <h6>SMALL</h6>
+                          </div>
+                          <div class="product-price-figure">
+                            15.00
+                          </div>
+
+                        </div>
+                      </div>
+
+                          <center><a onclick="showBilling()" class="myButton">Order</a></center>
+
+                    </div>
+                </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="copyright-box" >
+        <span class="copyright-txt">&copy; 2019 Jemmy's Rich Mix Ltd</span>
+        <span class="nabetuaful-txt">Website by <a href="nabetuaful.com">Nab Etuaful</a></span>
+      </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- WARNING: BUY-FORMS -->
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+    onload="if(submitted) {window.location='thankyou.htm';}"></iframe>
+    <div class="customer-forms">
+      <i class="fa fa-times closeBtn" onclick="closeBilling()"></i>
+
+      <h2 style="text-align:center; font-weight: 400;">Billing Information</h2>
+      <p style="text-align:center; font-weight: 400;">
+        Jemy's Rich Mix
+      </p>
+      <form class="cutomer-billing-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdLedcYnRbxPk-PsgHMCrVn12czB4fbNOeipPDeDRcftu9EdQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+        <input placeholder="Name"class="clear-txt" type="text" name="entry.2005620554" required>  <br><br>
+
+        <input placeholder="Email" class="clear-txt" type="email" name="entry.1045781291" required> <br><br>
+
+        <input placeholder="Contact Number" class="clear-txt" type="number" name="entry.1166974658"> <br><br>
+
+        <textarea placeholder="Do you have any questions or want to make a comment?"class="clear-txt" name="entry.839337160" rows="10" cols="30"> </textarea>
+          <br> <br>
+          <div style="text-align: center;">
+            <input class="submit-order-btn" type="submit" value="Submit">
+          </div>
+      </form>
+
+
+    </div>
+
+    <!-- WARNING: SMALL SCREEN MENU -->
+    <div class="menu-box nb-mobile">
+      <i class="fa fa-times closeBtn" onclick="closeMenu()"></i>
+      <ul>
+        <a href="index.html"><li>HOME</li></a>
+        <a href="menu.htm"><li>MENU</li></a>
+        <a href="about.htm"><li>ABOUT</li></a>
+        <a href="contact.htm"><li>CONTACT</li></a>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="js/style-interval.js"></script>
+    <script type="text/javascript" src="js/nb-scrollfix.js"></script>
+    <script type="text/javascript" src="js/nb-header.js"></script>
+    <script type="text/javascript" src="js/security.js"></script>
+  </body>
+
+
+</html>
